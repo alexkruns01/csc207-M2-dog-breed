@@ -30,7 +30,7 @@ Main {
             return breedFetcher.getSubBreeds(breed).size();
         }
         catch(Exception e){
-            return -1;
+            return 0;
         }
     }
 }
